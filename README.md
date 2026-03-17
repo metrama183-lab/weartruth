@@ -16,6 +16,25 @@ WearTruth analizza la composizione tessile della tua etichetta e ti restituisce 
 
 ---
 
+## 💡 Il problema reale
+
+Compri una maglietta. L'etichetta dice *"65% polyester, 30% viscose, 5% elastane"*. E poi?
+
+- **Non sai** che rilascerà ~700.000 microplastiche ad ogni lavaggio
+- **Non sai** che il polyester è derivato dal petrolio e non si biodegrada per 200+ anni
+- **Non sai** che esistono certificazioni (OEKO-TEX, GOTS) che garantiscono tessuti più sicuri
+
+Le informazioni esistono, ma sono sparse tra paper scientifici, report ECHA, e siti specializzati. **Nessuno le mette insieme in un formato comprensibile in 2 secondi.**
+
+WearTruth risolve questo: copi l'etichetta, ricevi la verità.
+
+<!-- 👉 Marco: aggiungi qui la tua storia personale se vuoi. Es:
+"Ho passato una sera intera a cercare cosa significasse la composizione
+della mia felpa preferita. Ho pensato: se è così difficile per me che
+so programmare, come fa mia nonna?" -->
+
+---
+
 ## 🚀 Come funziona
 
 1. **Copia l'etichetta** del tuo capo d'abbigliamento (es. `65% polyester, 30% viscose, 5% elastane`)

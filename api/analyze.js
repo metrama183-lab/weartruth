@@ -23,7 +23,7 @@ Rispondi in italiano con questo JSON esatto (nessun testo fuori dal JSON):
   "envImpact": "impatto ambientale — produzione, smaltimento, biodegradabilità",
   "durability": "durata media stimata del capo in anni e perché",
   "summary": "una sola frase di verdetto finale, diretta e onesta",
-  "safetyScore": un numero intero da 1 a 10 che rappresenta la NATURALEZZA del tessuto (10 = 100% naturale, biologico, sicuro; 1 = tutto sintetico, derivato dal petrolio),
+  "safetyScore": un numero intero da 1 a 10 che rappresenta la NATURALEZZA del tessuto (10 = 100% naturale, biologico, sicuro; 1 = tutto sintetico, derivato dal petrolio). Esempi: 100% organic cotton = 10, 100% cotton = 8, 80% cotton 20% polyester = 6, 100% recycled polyester = 4 (riciclato ma sintetico), 100% virgin polyester = 2,
   "dominantMaterial": "il materiale principale in inglese lowercase (cotton, polyester, wool, linen, viscose, nylon, silk, other)",
   "tips": [
     {

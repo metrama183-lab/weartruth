@@ -40,7 +40,7 @@ export function findInCache(composition) {
 
 // ── API proxy call with timeout ─────────────────────────────────────────────
 
-const API_TIMEOUT_MS = 12000 // 12 seconds — generous but catches hangs
+const API_TIMEOUT_MS = 8000 // 8s — must fire BEFORE Vercel Hobby's 10s server timeout
 
 export async function analyzeComposition(rawComposition) {
   const composition = sanitize(rawComposition)
