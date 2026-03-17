@@ -59,7 +59,7 @@ Frontend (React + Vite)
 
 ```bash
 # 1. Clona
-git clone https://github.com/TUO-USERNAME/weartruth.git
+git clone https://github.com/metrama183-lab/weartruth.git
 cd weartruth
 
 # 2. Installa dipendenze
