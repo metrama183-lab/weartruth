@@ -20,12 +20,13 @@ function parseSyntheticPercent(composition) {
 function ScoreRing({ score }) {
   const pct = (score / 10) * 100
   const color = score >= 7 ? 'var(--accent-green)' : score >= 4 ? 'var(--accent-amber)' : 'var(--accent-red)'
+  const verdict = score >= 7 ? 'Eccellente' : score >= 4 ? 'Migliorabile' : 'Critico'
   const radius = 40
   const circ = 2 * Math.PI * radius
   const dashOffset = circ * (1 - pct / 100)
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px', minWidth: '80px' }}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '2px', minWidth: '90px' }}>
       <svg width="100" height="100" viewBox="0 0 100 100">
         <circle cx="50" cy="50" r={radius} fill="none" stroke="var(--border-subtle)" strokeWidth="8" />
         <circle
@@ -35,12 +36,12 @@ function ScoreRing({ score }) {
           strokeDashoffset={dashOffset}
           strokeLinecap="round"
           transform="rotate(-90 50 50)"
-          style={{ transition: 'stroke-dashoffset 1.2s cubic-bezier(0.22,1,0.36,1)' }}
+          className="score-ring-fill"
         />
         <text x="50" y="50" textAnchor="middle" fill={color} fontSize="22" fontWeight="700" fontFamily="Inter" dominantBaseline="middle">{score}</text>
       </svg>
-      <span style={{ color: 'var(--text-secondary)', fontSize: '12px', fontWeight: 700, letterSpacing: '0.04em' }}>Naturalezza</span>
-      <span style={{ color: 'var(--text-muted)', fontSize: '10px', letterSpacing: '0.03em' }}>1 sintetico → 10 naturale</span>
+      <span style={{ color, fontSize: '13px', fontWeight: 700, letterSpacing: '0.03em' }}>{verdict}</span>
+      <span style={{ color: 'var(--text-muted)', fontSize: '10px', letterSpacing: '0.03em' }}>Naturalezza</span>
     </div>
   )
 }

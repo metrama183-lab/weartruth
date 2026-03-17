@@ -3,7 +3,7 @@ import CompositionInput from './components/CompositionInput'
 import AnalysisCard from './components/AnalysisCard'
 import TipsSection from './components/TipsSection'
 import { analyzeComposition } from './lib/groqAnalysis'
-import { FiDroplet, FiRefreshCcw, FiAlertTriangle } from 'react-icons/fi'
+import { FiDroplet, FiRefreshCcw, FiAlertTriangle, FiShare2, FiCheck } from 'react-icons/fi'
 
 
 export default function App() {
@@ -11,6 +11,7 @@ export default function App() {
   const [analysis, setAnalysis] = useState(null)
   const [lastInput, setLastInput] = useState(null)
   const [error, setError] = useState('')
+  const [shared, setShared] = useState(false)
   const resultsRef = useRef(null)
 
   const handleAnalyze = useCallback(async ({ composition }) => {
@@ -200,6 +201,29 @@ export default function App() {
 
             {/* Structural Tips */}
             <TipsSection tips={analysis?.tips} />
+
+            {/* Share button */}
+            <div className="anim-fade-up delay-4" style={{ display: 'flex', justifyContent: 'center' }}>
+              <button
+                onClick={async () => {
+                  const score = analysis.safetyScore || 0
+                  const verdict = score >= 7 ? 'Eccellente' : score >= 4 ? 'Migliorabile' : 'Critico'
+                  const text = `🌿 Ho analizzato un capo in ${lastInput?.composition}\n\nNaturalezza: ${score}/10 (${verdict})\n${analysis.summary}\n\nScopri cosa indossi → weartruth.vercel.app`
+
+                  if (navigator.share) {
+                    await navigator.share({ text }).catch(() => {})
+                  } else {
+                    await navigator.clipboard.writeText(text)
+                    setShared(true)
+                    setTimeout(() => setShared(false), 2000)
+                  }
+                }}
+                className="btn-share"
+              >
+                {shared ? <FiCheck size={16} /> : <FiShare2 size={16} />}
+                {shared ? 'Copiato!' : 'Condividi risultato'}
+              </button>
+            </div>
 
             {/* Footer note */}
             <p className="anim-fade-up" style={{ fontSize: '12px', color: 'var(--text-muted)', textAlign: 'center', marginTop: '4px' }}>

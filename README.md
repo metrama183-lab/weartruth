@@ -8,6 +8,14 @@ WearTruth analizza la composizione tessile della tua etichetta e ti restituisce 
 
 ---
 
+### 📸 Screenshots
+
+| Homepage | Risultati (100% polyester) |
+|---|---|
+| ![Homepage](docs/screenshot-homepage.png) | ![Risultati](docs/screenshot-results.png) |
+
+---
+
 ## 🚀 Come funziona
 
 1. **Copia l'etichetta** del tuo capo d'abbigliamento (es. `65% polyester, 30% viscose, 5% elastane`)

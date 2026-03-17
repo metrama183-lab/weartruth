@@ -134,6 +134,29 @@ body::before {
   transform: translateY(-1px);
 }
 
+.btn-share {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: transparent;
+  color: var(--accent-green);
+  font-weight: 600;
+  font-size: 14px;
+  font-family: var(--font);
+  border: 1.5px solid var(--border-accent);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s, transform 0.15s, box-shadow 0.2s;
+}
+
+.btn-share:hover {
+  background: rgba(134, 239, 172, 0.08);
+  border-color: var(--accent-green);
+  transform: translateY(-1px);
+  box-shadow: 0 0 20px rgba(134, 239, 172, 0.15);
+}
+
 /* ===== Animations ===== */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(24px); }
@@ -279,6 +302,15 @@ body::before {
   background-size: 200% 100%;
   animation: shimmer 1.8s ease-in-out infinite;
   border: 1px solid var(--border-subtle);
+}
+
+/* ===== Score ring animation ===== */
+.score-ring-fill {
+  animation: ringFill 1.2s cubic-bezier(0.22, 1, 0.36, 1) 0.3s both;
+}
+
+@keyframes ringFill {
+  from { stroke-dashoffset: 251.33; } /* full circle = 2π×40 */
 }
 
 /* ===== Divider ===== */
