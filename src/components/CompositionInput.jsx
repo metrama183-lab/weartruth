@@ -26,16 +26,16 @@ export default function CompositionInput({ onAnalyze, isLoading }) {
       {/* Composition field */}
       <div>
         <label style={{ display: 'block', color: 'var(--text-secondary)', fontSize: '13px', fontWeight: 600, marginBottom: '8px', letterSpacing: '0.05em', textTransform: 'uppercase' }}>
-          Composizione tessile
+          Textile composition
         </label>
         <textarea
           className="composition-input"
           rows={3}
           value={composition}
           onChange={(e) => setComposition(e.target.value)}
-          placeholder={'Copia l\'etichetta qui — es: "65% polyester, 30% viscose, 5% elastane"'}
+          placeholder={'Paste the label here — e.g. "65% polyester, 30% viscose, 5% elastane"'}
           disabled={isLoading}
-          aria-label="Inserisci la composizione tessile"
+          aria-label="Enter the textile composition"
           id="composition-textarea"
         />
         {/* Example chips */}
@@ -63,12 +63,12 @@ export default function CompositionInput({ onAnalyze, isLoading }) {
         {isLoading ? (
           <>
             <div className="spinner" style={{ width: '18px', height: '18px', borderWidth: '2px' }} />
-            Analisi in corso…
+            Analyzing…
           </>
         ) : (
           <>
             <FiZap size={18} />
-            Analizza l&apos;etichetta
+            Analyze the label
           </>
         )}
       </button>

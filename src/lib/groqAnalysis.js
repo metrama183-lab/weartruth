@@ -71,14 +71,14 @@ export async function analyzeComposition(rawComposition) {
 
     if (!res.ok) {
       const err = await res.json().catch(() => ({}))
-      throw new Error(err?.error || `Errore server: ${res.status}`)
+      throw new Error(err?.error || `Server error: ${res.status}`)
     }
 
     return res.json()
   } catch (err) {
     clearTimeout(timeout)
     if (err.name === 'AbortError') {
-      throw new Error('L\'analisi sta impiegando troppo tempo. Riprova tra qualche secondo.')
+      throw new Error('The analysis is taking too long. Please retry in a few seconds.')
     }
     throw err
   }

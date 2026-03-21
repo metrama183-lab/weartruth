@@ -7,15 +7,15 @@
       "aliases": ["100% poliestere", "100% polyester"],
       "safetyScore": 2,
       "dominantMaterial": "polyester",
-      "microplastics": "Ogni lavaggio rilascia circa 700.000 microfibre di plastica che finiscono nell'oceano e nella catena alimentare.",
-      "skinImpact": "Non traspira, trattiene il calore e il sudore. Può causare irritazioni, cattivi odori persistenti e sfregamenti cutanei.",
-      "envImpact": "Derivato dal petrolio grezzo, non è biodegradabile. Ci vogliono 200+ anni per decomporsi in discarica.",
-      "durability": "2-5 anni in uso normale. Resiste alle lavaggi ma accumula odori col tempo.",
-      "summary": "Plastica che si indossa: rilascia microfibre ad ogni lavaggio e non si decompone mai davvero.",
+      "microplastics": "Each wash releases approximately 700,000 plastic microfibers that end up in the ocean and food chain.",
+      "skinImpact": "Non-breathable, traps heat and sweat. Can cause irritation, persistent odors and skin chafing.",
+      "envImpact": "Derived from crude oil, not biodegradable. Takes 200+ years to decompose in landfill.",
+      "durability": "2–5 years with normal use. Resists washing but accumulates odors over time.",
+      "summary": "Wearable plastic: releases microfibers every wash and never truly decomposes.",
       "tips": [
-        { "icon": "🧺", "title": "Usa una Guppyfriend Bag", "body": "Lava questo capo dentro una laundry bag anti-microplastiche (Guppyfriend o Cora Ball). Blocca fino al 99% delle fibre prima che raggiungano il mare." },
-        { "icon": "🌡️", "title": "Lava a freddo, meno spesso", "body": "Lavaggi a 30°C rilasciano meno microfibre rispetto a temperature alte. Lavalo solo quando è davvero necessario — il poliestere non respira, ma si sporca meno dei tessuti naturali." },
-        { "icon": "🌿", "title": "Cerca la certificazione OEKO-TEX", "body": "Per il prossimo acquisto, cerca capi con certificazione OEKO-TEX Standard 100: garantisce assenza di sostanze nocive. Meglio ancora: scegli cotone organico GOTS o TENCEL al posto del poliestere." }
+        { "icon": "🧺", "title": "Use a Guppyfriend Bag", "body": "Wash this garment inside an anti-microplastic laundry bag (Guppyfriend or Cora Ball). It captures up to 99% of fibers before they reach the sea." },
+        { "icon": "🌡️", "title": "Cold wash, less often", "body": "Washing at 30°C releases fewer microfibers than hot cycles. Only wash when truly necessary — polyester doesn't breathe but gets dirty less than natural fabrics." },
+        { "icon": "🌿", "title": "Look for OEKO-TEX certification", "body": "For your next purchase, look for OEKO-TEX Standard 100 certified garments: guarantees no harmful substances. Even better: choose GOTS organic cotton or TENCEL instead of polyester." }
       ]
     },
     {
@@ -23,15 +23,15 @@
       "aliases": ["65% polyester, 35% cotton", "65% poliestere 35% cotone", "65% poliestere, 35% cotone", "35% cotton 65% polyester", "35% cotone 65% poliestere"],
       "safetyScore": 4,
       "dominantMaterial": "polyester",
-      "microplastics": "Il 65% di poliestere rilascia circa 450.000 microfibre per lavaggio — meno del 100% sintetico, ma comunque significativo.",
-      "skinImpact": "Il cotone migliora la traspirabilità, ma la componente sintetica riduce la freschezza. Accettabile per uso quotidiano.",
-      "envImpact": "Il mix rende impossibile il riciclo: né il poliestere né il cotone possono essere recuperati separatamente.",
-      "durability": "3-6 anni. La miscela è più robusta del solo cotone ma meno piacevole nel tempo.",
-      "summary": "Un compromesso di massa: più economico da produrre, ma iriciclabile e ancora inquinante.",
+      "microplastics": "The 65% polyester releases approximately 450,000 microfibers per wash — less than 100% synthetic, but still significant.",
+      "skinImpact": "Cotton improves breathability, but the synthetic component reduces freshness. Acceptable for daily use.",
+      "envImpact": "The blend makes recycling impossible: neither polyester nor cotton can be recovered separately.",
+      "durability": "3–6 years. The blend is stronger than cotton alone but less pleasant over time.",
+      "summary": "A mass-market compromise: cheaper to produce, but unrecyclable and still polluting.",
       "tips": [
-        { "icon": "🧺", "title": "Usa una laundry bag", "body": "Il 65% di poliestere rilascia un numero significativo di microfibre. Una Guppyfriend Bag riduce il rilascio fino al 99% — investimento una tantum, dura anni." },
-        { "icon": "♻️", "title": "Non è riciclabile, non buttarlo", "body": "I blend cotone-poliestere non possono essere separati industrialmente. Quando non lo usi più, donalo o portalo in un'isola ecologica tessile — non in pattumiera." },
-        { "icon": "🌾", "title": "Il prossimo: 100% cotone organico", "body": "Cerca capi con almeno 80% di origine naturale. La certificazione GOTS garantisce cotone organico coltivato senza pesticidi sintetici." }
+        { "icon": "🧺", "title": "Use a laundry bag", "body": "65% polyester releases a significant amount of microfibers. A Guppyfriend Bag reduces release by up to 99% — a one-time investment that lasts years." },
+        { "icon": "♻️", "title": "Not recyclable — don't bin it", "body": "Cotton-polyester blends cannot be industrially separated. When you no longer use it, donate it or bring it to a textile collection point — not the trash." },
+        { "icon": "🌾", "title": "Next time: 100% organic cotton", "body": "Look for garments with at least 80% natural origin. GOTS certification guarantees organic cotton grown without synthetic pesticides." }
       ]
     },
     {
@@ -39,15 +39,15 @@
       "aliases": ["100% cotone", "100% cotton"],
       "safetyScore": 8,
       "dominantMaterial": "cotton",
-      "microplastics": "Zero microplastiche. Il cotone è una fibra naturale che non rilascia particelle sintetiche in lavatrice.",
-      "skinImpact": "Traspira bene, assorbe l'umidità, è morbido sulla pelle. Ideale per chi ha pelle sensibile.",
-      "envImpact": "Biodegradabile al 100%, ma la coltivazione convenzionale consuma molta acqua (2.000L per una maglietta). Meglio se organico.",
-      "durability": "3-5 anni con cura normale. Può restringersi se lavato a temperature alte.",
-      "summary": "La scelta sicura: niente plastica, niente irritazioni — solo attenzione all'origine del cotone.",
+      "microplastics": "Zero microplastics. Cotton is a natural fiber that releases no synthetic particles in the wash.",
+      "skinImpact": "Breathes well, absorbs moisture, soft on skin. Ideal for sensitive skin types.",
+      "envImpact": "100% biodegradable, but conventional farming uses a lot of water (2,000L per T-shirt). Better if organic.",
+      "durability": "3–5 years with normal care. May shrink if washed at high temperatures.",
+      "summary": "The safe choice: no plastic, no irritation — just mind the origin of the cotton.",
       "tips": [
-        { "icon": "🌊", "title": "Controlla l'origine: BCI o GOTS?", "body": "Non tutto il cotone è uguale. Cerca la certificazione GOTS (organico) o BCI (Better Cotton Initiative) sull'etichetta — usano fino al 91% di acqua in meno rispetto al cotone convenzionale." },
-        { "icon": "🌡️", "title": "Lava a 30°C per durare di più", "body": "Il cotone si restringe facilmente ad alte temperature. Lavare a 30°C prolunga la vita del capo e consuma molta meno energia." },
-        { "icon": "🌿", "title": "All'acquisto, preferisci l'organico", "body": "Questo capo è già una buona scelta. Se vuoi fare un passo in più, la prossima volta scegli cotone certificato GOTS: zero pesticidi, filiera tracciabile." }
+        { "icon": "🌊", "title": "Check the origin: BCI or GOTS?", "body": "Not all cotton is equal. Look for GOTS (organic) or BCI (Better Cotton Initiative) certification on the label — these use up to 91% less water than conventional cotton." },
+        { "icon": "🌡️", "title": "Wash at 30°C to last longer", "body": "Cotton shrinks easily at high temperatures. Washing at 30°C extends the garment's life and uses much less energy." },
+        { "icon": "🌿", "title": "On next purchase, choose organic", "body": "This garment is already a good choice. If you want to go further, next time choose GOTS-certified cotton: zero pesticides, traceable supply chain." }
       ]
     },
     {
@@ -55,15 +55,15 @@
       "aliases": ["100% cotone organico", "100% organic cotton", "cotone biologico 100%"],
       "safetyScore": 10,
       "dominantMaterial": "cotton",
-      "microplastics": "Zero microplastiche. Fibra naturale pura, nessuna particella sintetica durante il lavaggio.",
-      "skinImpact": "Nessun residuo chimico da pesticidi. Ideale per pelli sensibili, bambini, intimo. La scelta migliore in assoluto.",
-      "envImpact": "Coltivato senza pesticidi sintetici, usa fino al 91% meno acqua rispetto al cotone convenzionale. Biodegradabile.",
-      "durability": "4-6 anni. Le fibre più lunghe del cotone organico certificato tendono a durare di più.",
-      "summary": "Il top assoluto: naturale, senza pesticidi, biodegradabile. Se puoi scegliere, scegli questo.",
+      "microplastics": "Zero microplastics. Pure natural fiber — no synthetic particles released during washing.",
+      "skinImpact": "No pesticide residues. Ideal for sensitive skin, children, underwear. The absolute best choice.",
+      "envImpact": "Grown without synthetic pesticides, uses up to 91% less water than conventional cotton. Biodegradable.",
+      "durability": "4–6 years. The longer fibers of certified organic cotton tend to last longer.",
+      "summary": "The absolute top: natural, pesticide-free, biodegradable. If you can choose, choose this.",
       "tips": [
-        { "icon": "✅", "title": "Hai già scelto il meglio", "body": "Il cotone organico certificato GOTS è la fibra di abbigliamento più sostenibile disponibile su larga scala. Continua così." },
-        { "icon": "🔁", "title": "Riciclalo alla fine della vita", "body": "Quando il capo sarà consumato, portalo in un'isola ecologica o in un negozio con raccolta tessile (H&M, Decathlon, Zara). Il cotone puro è facile da riciclare." },
-        { "icon": "🌡️", "title": "Lava a 30°C, sempre", "body": "Anche il cotone organico ringrazia lavaggi a bassa temperatura. Meno energia, meno usura: il capo dura più a lungo." }
+        { "icon": "✅", "title": "You already made the best choice", "body": "GOTS-certified organic cotton is the most sustainable clothing fiber available at scale. Keep it up." },
+        { "icon": "🔁", "title": "Recycle it at end of life", "body": "When the garment is worn out, bring it to a fabric collection point or a store with textile take-back (H&M, Decathlon, Zara). Pure cotton is easy to recycle." },
+        { "icon": "🌡️", "title": "Always wash at 30°C", "body": "Even organic cotton benefits from low-temperature washing. Less energy, less wear: the garment lasts longer." }
       ]
     },
     {
@@ -71,15 +71,15 @@
       "aliases": ["80% cotton, 20% polyester", "80% cotone, 20% poliestere", "80% cotone 20% poliestere", "20% polyester 80% cotton"],
       "safetyScore": 6,
       "dominantMaterial": "cotton",
-      "microplastics": "Il 20% di poliestere rilascia circa 150.000 microfibre per lavaggio — meno di altri misti, ma non zero.",
-      "skinImpact": "Predomina il cotone: buona traspirabilità e comfort. Il poliestere dà più forma e resistenza agli strappi.",
-      "envImpact": "Mix iriciclabile industrialmente, ma la componente sintetica è minoritaria. Impatto intermedio.",
-      "durability": "4-7 anni. La miscela è più robusta del solo cotone, mantiene meglio la forma.",
-      "summary": "Accettabile: la maggioranza è naturale, ma c'è ancora una quota di plastica da considerare.",
+      "microplastics": "The 20% polyester releases approximately 150,000 microfibers per wash — less than other blends, but not zero.",
+      "skinImpact": "Cotton dominates: good breathability and comfort. Polyester adds shape retention and tear resistance.",
+      "envImpact": "Industrially unrecyclable blend, but the synthetic fraction is a minority. Intermediate impact.",
+      "durability": "4–7 years. The blend is stronger than cotton alone and holds its shape better.",
+      "summary": "Acceptable: the majority is natural, but there is still a plastic fraction to consider.",
       "tips": [
-        { "icon": "🧺", "title": "Laundry bag per precauzione", "body": "Il 20% di poliestere è minore, ma rilascia comunque microfibre. Una Guppyfriend Bag è un'abitudine utile anche per i blend con bassa percentuale sintetica." },
-        { "icon": "🌾", "title": "Verso il 100% naturale", "body": "Per il prossimo acquisto, cerca blend con percentuale naturale ancora più alta (90%+) o direttamente 100% cotone organico. Il comfort non cambierà, l'impatto sì." },
-        { "icon": "🔁", "title": "Non è riciclabile", "body": "Come tutti i blend cotone-sintetico, non può essere separato industrialmente. Meglio donarlo che buttarlo quando smetti di usarlo." }
+        { "icon": "🧺", "title": "Laundry bag as a precaution", "body": "20% polyester is a small share, but still releases microfibers. A Guppyfriend Bag is a useful habit even for blends with low synthetic content." },
+        { "icon": "🌾", "title": "Aim for 100% natural", "body": "For your next purchase, look for blends with an even higher natural percentage (90%+) or straight 100% organic cotton. The comfort won't change, the impact will." },
+        { "icon": "🔁", "title": "Not recyclable", "body": "Like all cotton-synthetic blends, it cannot be industrially separated. Better to donate it than discard it when you stop using it." }
       ]
     },
     {
@@ -87,15 +87,15 @@
       "aliases": ["95% cotton, 5% elastane", "95% cotone, 5% elastan", "95% cotone 5% elastan", "95% cotton 5% lycra", "95% cotone 5% lycra"],
       "safetyScore": 7,
       "dominantMaterial": "cotton",
-      "microplastics": "Il 5% di elastan rilascia pochissime microfibre. Impatto molto limitato rispetto ai tessuti prevalentemente sintetici.",
-      "skinImpact": "Ottimo comfort: il cotone traspira e l'elastan dà elasticità senza sfregamenti. Usato spesso per jeans e t-shirt stretch.",
-      "envImpact": "Quasi tutto naturale. La piccola quota di elastan rende il riciclo industriale più complesso, ma l'impatto è contenuto.",
-      "durability": "3-5 anni. L'elastan si degrada prima del cotone, specialmente con lavaggi frequenti ad alte temperature.",
-      "summary": "Buona scelta: il cotone domina, l'elastan è minimo. Solo attenzione a lavare a basse temperature.",
+      "microplastics": "The 5% elastane releases very few microfibers. Impact much lower than predominantly synthetic fabrics.",
+      "skinImpact": "Excellent comfort: cotton breathes and elastane adds stretch without chafing. Often used in jeans and stretch T-shirts.",
+      "envImpact": "Almost entirely natural. The small elastane fraction makes industrial recycling more complex, but the impact is contained.",
+      "durability": "3–5 years. Elastane degrades before cotton, especially with frequent high-temperature washes.",
+      "summary": "Good choice: cotton dominates, elastane is minimal. Just mind washing at low temperatures.",
       "tips": [
-        { "icon": "🌡️", "title": "Lava a bassa temperatura", "body": "L'elastan si deteriora rapidamente ad alte temperature, perdendo elasticità. Lava a 30°C o meno per preservare la vestibilità nel tempo." },
-        { "icon": "🌾", "title": "Cerca il cotone organico", "body": "Questo mix è già valido. Per la prossima scelta, verifica che il cotone sia certificato GOTS o OEKO-TEX: stessa elasticità, nessun pesticida." },
-        { "icon": "♻️", "title": "Fine vita: isola ecologica", "body": "La piccola percentuale di elastan rende difficile il riciclo industriale. Portalo in raccolta tessile invece di gettarlo — può ancora essere rilavorato." }
+        { "icon": "🌡️", "title": "Wash at low temperature", "body": "Elastane deteriorates quickly at high temperatures, losing elasticity. Wash at 30°C or less to preserve the fit over time." },
+        { "icon": "🌾", "title": "Look for organic cotton", "body": "This blend is already valid. For your next choice, verify the cotton is GOTS or OEKO-TEX certified: same stretch, no pesticides." },
+        { "icon": "♻️", "title": "End of life: textile collection", "body": "The small elastane percentage makes industrial recycling difficult. Bring it to a collection point instead of discarding — it can still be reprocessed." }
       ]
     },
     {
@@ -103,15 +103,15 @@
       "aliases": ["100% viscosa", "100% viscose", "100% rayon"],
       "safetyScore": 4,
       "dominantMaterial": "viscose",
-      "microplastics": "La viscosa è una fibra semi-sintetica. Rilascia alcune fibre durante il lavaggio, ma meno del poliestere.",
-      "skinImpact": "Morbida e leggera, buona caduta. Però si sgualcisce facilmente, assorbe molto sudore e può causare irritazioni se di bassa qualità.",
-      "envImpact": "Prodotta dalla cellulosa del legno con processi chimici intensivi. La produzione usa solventi tossici. Biodegradabile, ma con un'impronta produttiva alta.",
-      "durability": "2-4 anni. Si consuma e deforma rapidamente, specialmente con lavaggi frequenti.",
-      "summary": "Sembra naturale (viene dal legno) ma il processo chimico la rende semi-sintetica con impatto ambientale rilevante.",
+      "microplastics": "Viscose is a semi-synthetic fiber. It releases some fibers during washing, but fewer than polyester.",
+      "skinImpact": "Soft and lightweight, good drape. But wrinkles easily, absorbs a lot of sweat and can cause irritation if low quality.",
+      "envImpact": "Made from wood cellulose using intensive chemical processes. Production uses toxic solvents. Biodegradable, but with a high production footprint.",
+      "durability": "2–4 years. Wears out and deforms quickly, especially with frequent washing.",
+      "summary": "Looks natural (comes from wood) but the chemical process makes it semi-synthetic with significant environmental impact.",
       "tips": [
-        { "icon": "🌲", "title": "Chiedi: è TENCEL o viscosa generica?", "body": "La viscosa convenzionale usa solventi tossici. TENCEL Lyocell (Lenzing) usa un ciclo chiuso al 99% con solventi recuperati. Cerca TENCEL sull'etichetta." },
-        { "icon": "🤲", "title": "Lava a mano o in delicato", "body": "La viscosa perde forma e dimensione facilmente in lavatrice. Lavaggio a mano o programma delicato a 30°C — centrifuga bassa o zero." },
-        { "icon": "🌿", "title": "Alternativa: Modal Lenzing", "body": "Il Modal prodotto da Lenzing (Austria) è una viscosa di nuova generazione: processo certificato, solventi riciclati, biodegradabile. Cerca 'Modal Lenzing' o 'Lenzing Modal' sull'etichetta." }
+        { "icon": "🌲", "title": "Is it TENCEL or generic viscose?", "body": "Conventional viscose uses toxic solvents. TENCEL Lyocell (Lenzing) uses a 99% closed-loop system with recovered solvents. Look for TENCEL on the label." },
+        { "icon": "🤲", "title": "Hand wash or delicate cycle", "body": "Viscose loses shape and size easily in the washing machine. Hand wash or delicate programme at 30°C — low or no spin." },
+        { "icon": "🌿", "title": "Alternative: Lenzing Modal", "body": "Modal produced by Lenzing (Austria) is a next-generation viscose: certified process, recycled solvents, biodegradable. Look for 'Lenzing Modal' or 'TENCEL Modal' on the label." }
       ]
     },
     {
@@ -119,15 +119,15 @@
       "aliases": ["100% lino", "100% linen", "lino 100%"],
       "safetyScore": 9,
       "dominantMaterial": "linen",
-      "microplastics": "Zero microplastiche. Il lino è una fibra vegetale completamente naturale.",
-      "skinImpact": "Altamente traspirante, rinfresca in estate, ipoallergenico. Si ammorbidisce nel tempo, non causa irritazioni.",
-      "envImpact": "Pianta del lino: cresce senza pesticidi, usa pochissima acqua (circa 5x meno del cotone), si sfrutta interamente. Eccellente.",
-      "durability": "10-20 anni. È una delle fibre più resistenti esistenti — gli indumenti in lino durano decenni se curati.",
-      "summary": "Uno dei tessuti più sostenibili al mondo: niente chimica, acqua minima, dura una vita intera.",
+      "microplastics": "Zero microplastics. Linen is a completely natural plant fiber.",
+      "skinImpact": "Highly breathable, cool in summer, hypoallergenic. Softens over time, causes no irritation.",
+      "envImpact": "Flax plant: grows without pesticides, uses very little water (about 5x less than cotton), fully utilized. Excellent.",
+      "durability": "10–20 years. One of the most resistant fibers in existence — linen garments last decades if cared for.",
+      "summary": "One of the world's most sustainable fabrics: no chemicals, minimal water, lasts a lifetime.",
       "tips": [
-        { "icon": "✅", "title": "Eccellente scelta già fatta", "body": "Il lino è tra le fibre con il minore impatto ambientale al mondo. Coltivazione senza pesticidi, consumo idrico minimo, biodegradabile al 100%." },
-        { "icon": "🌡️", "title": "Lava a freddo, evita l'asciugatrice", "body": "Il lino si accorcia ad alte temperature. Lava a 30°C e stendi ad asciugare — diventa sempre più morbido lavaggio dopo lavaggio." },
-        { "icon": "📦", "title": "Dura decenni: curalo bene", "body": "A differenza dei sintetici, il lino di qualità migliora con l'uso e il tempo. Conservalo arrotolato, non piegato, per evitare segni permanenti." }
+        { "icon": "✅", "title": "Excellent choice already made", "body": "Linen is among the fibers with the lowest environmental impact in the world. Pesticide-free farming, minimal water consumption, 100% biodegradable." },
+        { "icon": "🌡️", "title": "Cold wash, avoid the dryer", "body": "Linen shrinks at high temperatures. Wash at 30°C and air dry — it becomes softer with every wash." },
+        { "icon": "📦", "title": "Lasts decades: care for it", "body": "Unlike synthetics, quality linen improves with use and time. Store rolled, not folded, to avoid permanent creases." }
       ]
     },
     {
@@ -135,15 +135,15 @@
       "aliases": ["100% lana", "100% wool", "lana 100%"],
       "safetyScore": 9,
       "dominantMaterial": "wool",
-      "microplastics": "La lana rilascia fibre naturali durante il lavaggio, non microplastiche. Le fibre di lana sono biodegradabili.",
-      "skinImpact": "Eccellente termoregolazione — scalda in inverno, rinfresca in estate. Può essere leggermente pruriginosa su pelle sensibile.",
-      "envImpact": "Fibra animale naturale, rinnovabile e biodegradabile. Attenzione al benessere animale e alla gestione dei pascoli.",
-      "durability": "5-15 anni. La lana di qualità dura molto, resiste agli odori e ha bisogno di pochi lavaggi.",
-      "summary": "Fibra naturale eccellente con ottima durabilità: solo attenzione all'origine etica del produttore.",
+      "microplastics": "Wool releases natural fibers during washing, not microplastics. Wool fibers are biodegradable.",
+      "skinImpact": "Excellent thermoregulation — warm in winter, cool in summer. May be slightly itchy on sensitive skin.",
+      "envImpact": "Natural, renewable and biodegradable animal fiber. Pay attention to animal welfare and pasture management.",
+      "durability": "5–15 years. Quality wool lasts a long time, resists odors and needs few washes.",
+      "summary": "Excellent natural fiber with great durability: just mind the ethical origin from the producer.",
       "tips": [
-        { "icon": "🐑", "title": "Cerca la certificazione RWS o ZQ", "body": "RWS (Responsible Wool Standard) e ZQ Merino certificano il benessere delle pecore e la gestione sostenibile dei pascoli. Cerca questi marchi sull'etichetta." },
-        { "icon": "🧴", "title": "Lavala raramente, aera spesso", "body": "La lana è naturalmente antibatterica — basta aerarla all'aperto per eliminare odori. Lavala solo ogni 5-10 utilizzi, sempre a freddo con detergente specifico lana." },
-        { "icon": "🔁", "title": "Fine vita: compostabile", "body": "La lana pura è compostabile al 100%. Se il capo è consumato e non donabile, puoi compostarlo o portarlo in raccolta tessile specializzata." }
+        { "icon": "🐑", "title": "Look for RWS or ZQ certification", "body": "RWS (Responsible Wool Standard) and ZQ Merino certify sheep welfare and sustainable pasture management. Look for these marks on the label." },
+        { "icon": "🧴", "title": "Wash rarely, air often", "body": "Wool is naturally antibacterial — just air it outdoors to eliminate odors. Wash only every 5–10 uses, always cold with wool-specific detergent." },
+        { "icon": "🔁", "title": "End of life: compostable", "body": "Pure wool is 100% compostable. If the garment is worn out and can't be donated, you can compost it or bring it to specialized textile collection." }
       ]
     },
     {
@@ -151,15 +151,15 @@
       "aliases": ["100% lana merino", "100% merino wool", "merino 100%"],
       "safetyScore": 10,
       "dominantMaterial": "merino",
-      "microplastics": "Zero microplastiche sintetiche. Le microfibre di merino sono biodegradabili al 100%.",
-      "skinImpact": "Morbidissima, non prude affatto (a differenza della lana comune). Antibatterica naturale, regola la temperatura corporea. Usabile direttamente sulla pelle.",
-      "envImpact": "Naturale e rinnovabile. La lana merino certificata (ZQ, RWS) garantisce benessere delle pecore e gestione sostenibile dei pascoli.",
-      "durability": "7-20 anni. La merino è tra le fibre più resistenti e longeve. Si deforma poco, si lava raramente.",
-      "summary": "L'élite dei tessuti naturali: morbida come seta, termoregolante, antibatterica, dura decenni.",
+      "microplastics": "Zero synthetic microplastics. Merino microfibers are 100% biodegradable.",
+      "skinImpact": "Extremely soft, no itch at all (unlike regular wool). Naturally antibacterial, regulates body temperature. Wearable directly on skin.",
+      "envImpact": "Natural and renewable. Certified merino wool (ZQ, RWS) guarantees sheep welfare and sustainable pasture management.",
+      "durability": "7–20 years. Merino is among the most durable and long-lasting fibers. Holds shape well, rarely needs washing.",
+      "summary": "The elite of natural fabrics: soft as silk, thermoregulating, antibacterial, lasts decades.",
       "tips": [
-        { "icon": "✅", "title": "La scelta migliore in assoluto", "body": "La merino certificata (ZQ o RWS) è il tessuto di abbigliamento con il miglior rapporto tra performance, durata e impatto ambientale. Nessun compromesso." },
-        { "icon": "🧴", "title": "Lavala meno di quanto pensi", "body": "La merino ha proprietà antibatteriche naturali. Dopo ogni uso, aera il capo invece di lavarlo. Si raccomanda il lavaggio ogni 10-20 utilizzi, a freddo, con detergente delicato." },
-        { "icon": "📅", "title": "Investimento a lungo termine", "body": "Un capo in merino di qualità dura 10-20 anni. Il costo maggiore iniziale si ammortizza completamente nel tempo rispetto a capi sintetici che durano 2-3 anni." }
+        { "icon": "✅", "title": "Absolutely the best choice", "body": "Certified merino (ZQ or RWS) is the garment fabric with the best balance of performance, durability and environmental impact. No compromises." },
+        { "icon": "🧴", "title": "Wash less than you think", "body": "Merino has natural antibacterial properties. After each use, air the garment instead of washing it. Recommended washing every 10–20 uses, cold water, gentle detergent." },
+        { "icon": "📅", "title": "Long-term investment", "body": "A quality merino garment lasts 10–20 years. The higher initial cost is fully amortized over time compared to synthetic garments that last 2–3 years." }
       ]
     },
     {
@@ -167,15 +167,15 @@
       "aliases": ["50% polyester, 50% cotton", "50% poliestere, 50% cotone", "50% cotone 50% poliestere", "50/50 cotton polyester"],
       "safetyScore": 4,
       "dominantMaterial": "polyester",
-      "microplastics": "Il 50% di poliestere rilascia circa 350.000 microfibre per lavaggio. Impatto intermedio ma non trascurabile.",
-      "skinImpact": "Mix equilibrato: il cotone porta traspirabilità, il poliestere stabilità dimensionale. Usato molto nelle felpe economiche.",
-      "envImpact": "Iriciclabile industrialmente. Metà della fibra è da petrolio, metà è naturale ma le due non si separano.",
-      "durability": "4-6 anni. Resistente alle deformazioni ma accumula odori nel lungo periodo.",
-      "summary": "Il 50/50 sembra equilibrato ma crea lo stesso problema: plastica e cotone mescolati non si riciclano.",
+      "microplastics": "The 50% polyester releases approximately 350,000 microfibers per wash. Intermediate but non-negligible impact.",
+      "skinImpact": "Balanced blend: cotton provides breathability, polyester provides dimensional stability. Widely used in budget sweatshirts.",
+      "envImpact": "Industrially unrecyclable. Half the fiber is from oil, half is natural — but the two cannot be separated.",
+      "durability": "4–6 years. Resistant to deformation but accumulates odors over time.",
+      "summary": "The 50/50 sounds balanced but creates the same problem: plastic and cotton mixed cannot be recycled.",
       "tips": [
-        { "icon": "🧺", "title": "Laundry bag obbligatoria", "body": "Con il 50% di poliestere, ogni lavaggio rilascia circa 350.000 microfibre. Usa una Guppyfriend Bag — è l'unico modo pratico per ridurre il rilascio." },
-        { "icon": "🌾", "title": "Verso composizioni più naturali", "body": "Per il prossimo acquisto simile, cerca blend con almeno 80% cotone organico. La vestibilità è identica, l'impatto è molto inferiore." },
-        { "icon": "♻️", "title": "Non buttarlo: raccolta tessile", "body": "Il 50/50 non è riciclabile industrialmente ma può essere rilavorato come materiale coibentante. Portalo sempre in un punto di raccolta tessile alla fine della sua vita." }
+        { "icon": "🧺", "title": "Laundry bag mandatory", "body": "With 50% polyester, every wash releases approximately 350,000 microfibers. Use a Guppyfriend Bag — it's the only practical way to reduce release." },
+        { "icon": "🌾", "title": "Towards more natural compositions", "body": "For a similar next purchase, look for blends with at least 80% organic cotton. The fit is identical, the impact is much lower." },
+        { "icon": "♻️", "title": "Don't bin it: textile collection", "body": "50/50 is not industrially recyclable but can be reprocessed as insulating material. Always bring it to a textile collection point at end of life." }
       ]
     },
     {
@@ -183,15 +183,15 @@
       "aliases": ["95% modal, 5% elastane", "95% modal 5% elastan", "95% modal, 5% elastan", "95% modal 5% lycra"],
       "safetyScore": 5,
       "dominantMaterial": "viscose",
-      "microplastics": "Il modal è semi-sintetico (da faggio) e rilascia alcune fibre durante il lavaggio, meno del poliestere puro.",
-      "skinImpact": "Straordinariamente morbido — usato nell'intimo premium. Fresco, liscio, senza sfregamenti.",
-      "envImpact": "Il modal (es. TENCEL Modal) può essere prodotto in ciclo chiuso con solventi recuperati al 99%. Ma non tutti i modal sono uguali: chiedi la certificazione.",
-      "durability": "3-5 anni. Si mantiene morbido ma tende a deformarsi con uso intenso.",
-      "summary": "Super morbido e piacevole sulla pelle, ma chiedi sempre se il modal è certificato (Lenzing è il top).",
+      "microplastics": "Modal is semi-synthetic (from beech wood) and releases some fibers during washing, fewer than virgin polyester.",
+      "skinImpact": "Extraordinarily soft — used in premium underwear. Cool, smooth, no chafing.",
+      "envImpact": "Modal (e.g. TENCEL Modal) can be produced in a closed loop with 99% recovered solvents. But not all modal is equal: ask for certification.",
+      "durability": "3–5 years. Stays soft but tends to deform with heavy use.",
+      "summary": "Super soft and pleasant on skin, but always check if the modal is certified (Lenzing is the top).",
       "tips": [
-        { "icon": "🔍", "title": "È Modal Lenzing?", "body": "Non tutto il modal è uguale. Il Modal prodotto da Lenzing (Austria) usa un processo a ciclo chiuso con solventi recuperati al 99%. Cerca 'Lenzing Modal' o 'TENCEL Modal' sull'etichetta." },
-        { "icon": "🌡️", "title": "Delicato sempre, mai asciugatrice", "body": "Il modal perde morbidezza e forma ad alte temperature. Lava a 30°C, programma delicato, e asciuga steso — non in asciugatrice." },
-        { "icon": "🌿", "title": "Alternativa superiore: TENCEL Lyocell", "body": "TENCEL Lyocell ha un processo produttivo ancora più efficiente del modal e la stessa morbidezza. Per il prossimo acquisto, cerca TENCEL (non solo 'lyocell' generico)." }
+        { "icon": "🔍", "title": "Is it Lenzing Modal?", "body": "Not all modal is equal. Modal produced by Lenzing (Austria) uses a closed-loop process with 99% recovered solvents. Look for 'Lenzing Modal' or 'TENCEL Modal' on the label." },
+        { "icon": "🌡️", "title": "Always delicate, never dryer", "body": "Modal loses softness and shape at high temperatures. Wash at 30°C, delicate cycle, and air dry flat — never in the dryer." },
+        { "icon": "🌿", "title": "Superior alternative: TENCEL Lyocell", "body": "TENCEL Lyocell has an even more efficient production process than modal with the same softness. For your next purchase, look for TENCEL (not just generic 'lyocell')." }
       ]
     },
     {
@@ -199,15 +199,15 @@
       "aliases": ["80% polyester, 20% elastane", "80% poliestere, 20% elastan", "80% polyester 20% lycra", "80% poliestere 20% lycra"],
       "safetyScore": 2,
       "dominantMaterial": "polyester",
-      "microplastics": "Composizione tipica dell'activewear. Rilascia circa 560.000 microfibre per lavaggio, tra i peggiori in assoluto.",
-      "skinImpact": "Compressivo e aderente — utile per lo sport, ma la pelle non respira. Con sudore prolungato può irritare e causare microabrasioni.",
-      "envImpact": "Quasi tutto sintetico da petrolio, non biodegradabile. Il lavaggio di capi sportivi è la principale fonte di microplastiche nell'oceano.",
-      "durability": "2-4 anni. L'elastan si degrada prima, perdendo elasticità soprattutto con lavaggi frequenti.",
-      "summary": "Perfetto per lo sport, pessimo per l'ambiente: usa una laundry bag anti-microplastiche e lavalo raramente.",
+      "microplastics": "Typical activewear composition. Releases approximately 560,000 microfibers per wash — among the worst absolute levels.",
+      "skinImpact": "Compressive and form-fitting — useful for sport, but skin cannot breathe. With prolonged sweat can irritate and cause micro-abrasions.",
+      "envImpact": "Almost entirely petroleum-based synthetic, not biodegradable. Washing synthetic sportswear is the primary source of ocean microplastics.",
+      "durability": "2–4 years. Elastane degrades first, losing elasticity especially with frequent washes.",
+      "summary": "Perfect for sport, terrible for the environment: use an anti-microplastic laundry bag and wash rarely.",
       "tips": [
-        { "icon": "🧺", "title": "Guppyfriend Bag: non negoziabile", "body": "L'activewear sintetico è la fonte #1 di microplastiche nei mari. Ogni lavaggio in Guppyfriend Bag riduce il rilascio fino al 99% — per questo tipo di capo è essenziale." },
-        { "icon": "🚿", "title": "Risciacqua dopo lo sport, lava dopo 3 usi", "body": "Risciacqua con acqua fredda subito dopo l'allenamento per rimuovere il sudore. Lava in lavatrice solo ogni 2-3 utilizzi: meno lavaggi = meno microfibre = capo che dura di più." },
-        { "icon": "🌿", "title": "Alternativa: activewear in merino", "body": "Per attività non ad alta intensità, la lana merino ultra-light (150g/m²) compete con il sintetico: termoregola, è antibatterica, non rilascia microplastiche. Brand come Icebreaker o Smartwool." }
+        { "icon": "🧺", "title": "Guppyfriend Bag: non-negotiable", "body": "Synthetic activewear is the #1 source of ocean microplastics. Every wash in a Guppyfriend Bag reduces release by up to 99% — for this type of garment it's essential." },
+        { "icon": "🚿", "title": "Rinse after sport, wash every 3 uses", "body": "Rinse with cold water immediately after training to remove sweat. Machine wash only every 2–3 uses: fewer washes = fewer microfibers = garment lasts longer." },
+        { "icon": "🌿", "title": "Alternative: merino activewear", "body": "For lower-intensity activities, ultra-light merino wool (150g/m²) competes with synthetic: thermoregulates, is antibacterial, releases no microplastics. Brands like Icebreaker or Smartwool." }
       ]
     },
     {
@@ -215,15 +215,15 @@
       "aliases": ["100% nylon", "100% poliammide", "100% polyamide"],
       "safetyScore": 3,
       "dominantMaterial": "nylon",
-      "microplastics": "Il nylon rilascia circa 500.000 microfibre per lavaggio — simile al poliestere ma con particelle mediamente più grandi.",
-      "skinImpact": "Non traspira, genera elettricità statica, può causare irritazioni in uso prolungato. Ma è molto resistente agli strappi.",
-      "envImpact": "La produzione di nylon emette ossido nitroso, un gas serra 300 volte più potente della CO₂. Non biodegradabile.",
-      "durability": "5-10 anni. Resistentissimo meccanicamente — per questo usato in zaini, costumi, calzettoni tecnici.",
-      "summary": "Resistente ma inquinante: la sua produzione è tra le più impattanti nel settore tessile.",
+      "microplastics": "Nylon releases approximately 500,000 microfibers per wash — similar to polyester but with typically larger particles.",
+      "skinImpact": "Non-breathable, generates static electricity, can cause irritation with prolonged use. But very resistant to tearing.",
+      "envImpact": "Nylon production emits nitrous oxide, a greenhouse gas 300 times more potent than CO₂. Not biodegradable.",
+      "durability": "5–10 years. Mechanically very resistant — hence its use in backpacks, swimwear, technical socks.",
+      "summary": "Resistant but polluting: its production is among the most impactful in the textile sector.",
       "tips": [
-        { "icon": "🌊", "title": "Lava raramente con laundry bag", "body": "Il nylon rilascia microfibre di grandi dimensioni particolarmente dannose per la fauna marina. Usa sempre una Guppyfriend Bag e lava il meno possibile." },
-        { "icon": "♻️", "title": "Cerca ECONYL (nylon riciclato)", "body": "ECONYL è nylon rigenerato da reti da pesca e rifiuti plastici recuperati dall'oceano. Per il prossimo acquisto di nylon (costumi, calze, intimo tecnico), cerca ECONYL sull'etichetta." },
-        { "icon": "🌡️", "title": "Solo acqua fredda, mai asciugatrice", "body": "Il nylon si deforma e ingiallisce ad alte temperature. Lava sempre a freddo (20-30°C) e asciuga a temperatura ambiente." }
+        { "icon": "🌊", "title": "Wash rarely with laundry bag", "body": "Nylon releases large microfibers particularly harmful to marine life. Always use a Guppyfriend Bag and wash as little as possible." },
+        { "icon": "♻️", "title": "Look for ECONYL (recycled nylon)", "body": "ECONYL is regenerated nylon made from fishing nets and plastic waste recovered from the ocean. For your next nylon purchase (swimwear, tights, technical underwear), look for ECONYL on the label." },
+        { "icon": "🌡️", "title": "Cold water only, never dryer", "body": "Nylon deforms and yellows at high temperatures. Always wash cold (20–30°C) and air dry at room temperature." }
       ]
     },
     {
@@ -231,15 +231,15 @@
       "aliases": ["65% polyester, 30% viscose, 5% elastane", "65% poliestere, 30% viscosa, 5% elastan", "65% polyester 30% viscose 5% elastan"],
       "safetyScore": 2,
       "dominantMaterial": "polyester",
-      "microplastics": "Il 65% di poliestere + la parte di viscosa rilasciano insieme circa 500.000 fibre per lavaggio. Tra i mix peggiori.",
-      "skinImpact": "La viscosa aggiunge morbidezza ma non compensa la scarsa traspirabilità del poliestere. Adatto a uso limitato, non per tutto il giorno.",
-      "envImpact": "Tre fibre diverse, iriciclabili. La produzione di viscosa usa solventi chimici, quella di poliestere deriva dal petrolio.",
-      "durability": "2-4 anni. Tende a sformarsi e lucidare sulle zone di sfregamento.",
-      "summary": "Tre fibre problematiche insieme: evita se puoi, soprattutto per capi che usi spesso.",
+      "microplastics": "The 65% polyester + viscose fraction release together approximately 500,000 fibers per wash. Among the worst blends.",
+      "skinImpact": "Viscose adds softness but doesn't compensate for polyester's poor breathability. Suitable for limited use, not all day.",
+      "envImpact": "Three different fibers, non-recyclable. Viscose production uses chemical solvents, polyester comes from petroleum.",
+      "durability": "2–4 years. Tends to deform and become shiny in friction areas.",
+      "summary": "Three problematic fibers together: avoid if possible, especially for garments you wear often.",
       "tips": [
-        { "icon": "🧺", "title": "Guppyfriend Bag obbligatoria", "body": "Questo mix è tra i peggiori per rilascio di microfibre. Non lavarlo senza una laundry bag anti-microplastiche. È l'unica contromisura pratica che hai." },
-        { "icon": "🌡️", "title": "Lava raramente e a freddo", "body": "Ogni lavaggio accelera anche il deterioramento della viscosa. Areare il capo all'aperto e usare spray igienizzanti tessili tra un lavaggio e l'altro estende la vita del capo." },
-        { "icon": "🔄", "title": "Prossimo acquisto: fibra singola", "body": "I blend tri-componente sono i più difficili da gestire e smaltire. Scegli capi mono-fibra (100% cotone organico, 100% lino, 100% lana): più facili da riciclare, più durevoli, meno microplastiche." }
+        { "icon": "🧺", "title": "Guppyfriend Bag mandatory", "body": "This blend is among the worst for microfiber release. Never wash it without an anti-microplastic laundry bag. It's the only practical countermeasure you have." },
+        { "icon": "🌡️", "title": "Wash rarely and cold", "body": "Each wash also accelerates viscose deterioration. Airing the garment outdoors and using textile sanitizing sprays between washes extends its life." },
+        { "icon": "🔄", "title": "Next purchase: single fiber", "body": "Three-component blends are the hardest to manage and dispose of. Choose single-fiber garments (100% organic cotton, 100% linen, 100% wool): easier to recycle, more durable, fewer microplastics." }
       ]
     }
   ]

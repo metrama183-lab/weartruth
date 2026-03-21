@@ -20,7 +20,7 @@ function parseSyntheticPercent(composition) {
 function ScoreRing({ score }) {
   const pct = (score / 10) * 100
   const color = score >= 7 ? 'var(--accent-green)' : score >= 4 ? 'var(--accent-amber)' : 'var(--accent-red)'
-  const verdict = score >= 7 ? 'Eccellente' : score >= 4 ? 'Migliorabile' : 'Critico'
+  const verdict = score >= 7 ? 'Excellent' : score >= 4 ? 'Improvable' : 'Critical'
   const radius = 40
   const circ = 2 * Math.PI * radius
   const dashOffset = circ * (1 - pct / 100)
@@ -41,17 +41,17 @@ function ScoreRing({ score }) {
         <text x="50" y="50" textAnchor="middle" fill={color} fontSize="22" fontWeight="700" fontFamily="Inter" dominantBaseline="middle">{score}</text>
       </svg>
       <span style={{ color, fontSize: '13px', fontWeight: 700, letterSpacing: '0.03em' }}>{verdict}</span>
-      <span style={{ color: 'var(--text-muted)', fontSize: '10px', letterSpacing: '0.03em' }}>Naturalezza</span>
+      <span style={{ color: 'var(--text-muted)', fontSize: '10px', letterSpacing: '0.03em' }}>Naturalness</span>
     </div>
   )
 }
 
 
 const ROWS = [
-  { key: 'microplastics', icon: <FiDroplet size={16} />, label: 'Microplastiche', color: 'var(--accent-red)' },
-  { key: 'skinImpact',    icon: <FiSun size={16} />,     label: 'Impatto sulla pelle', color: 'var(--accent-amber)' },
-  { key: 'envImpact',     icon: <FiGlobe size={16} />,   label: 'Impatto ambientale', color: 'var(--accent-blue)' },
-  { key: 'durability',    icon: <FiClock size={16} />,   label: 'Durata media', color: 'var(--accent-green)' },
+  { key: 'microplastics', icon: <FiDroplet size={16} />, label: 'Microplastics', color: 'var(--accent-red)' },
+  { key: 'skinImpact',    icon: <FiSun size={16} />,     label: 'Skin impact', color: 'var(--accent-amber)' },
+  { key: 'envImpact',     icon: <FiGlobe size={16} />,   label: 'Environmental impact', color: 'var(--accent-blue)' },
+  { key: 'durability',    icon: <FiClock size={16} />,   label: 'Average lifespan', color: 'var(--accent-green)' },
 ]
 
 export default function AnalysisCard({ analysis, composition }) {
@@ -65,14 +65,14 @@ export default function AnalysisCard({ analysis, composition }) {
         <div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
             <span className={`badge ${synth > 60 ? 'badge-red' : synth > 30 ? 'badge-amber' : 'badge-green'}`}>
-              {synth > 60 ? '⚠️ Altamente sintetico' : synth > 30 ? '⚡ Misto sintetico' : '✅ Prevalentemente naturale'}
+              {synth > 60 ? '⚠️ Highly synthetic' : synth > 30 ? '⚡ Synthetic blend' : '✅ Mostly natural'}
             </span>
             {synth > 0 && (
-              <span className="badge badge-blue">{synth.toFixed(0)}% sintetico</span>
+              <span className="badge badge-blue">{synth.toFixed(0)}% synthetic</span>
             )}
           </div>
           <h2 style={{ fontSize: '20px', fontWeight: 700, color: 'var(--text-primary)', lineHeight: 1.3 }}>
-            Analisi AI
+            AI Analysis
           </h2>
           {analysis.summary && (
             <p style={{ color: 'var(--text-secondary)', fontSize: '14px', marginTop: '6px', lineHeight: 1.6 }}>

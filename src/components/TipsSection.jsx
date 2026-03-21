@@ -7,7 +7,7 @@ export default function TipsSection({ tips }) {
         className="anim-fade-up"
         style={{ fontSize: '20px', fontWeight: 700, marginBottom: '16px', color: 'var(--text-primary)' }}
       >
-        💡 Cosa puoi fare adesso
+        💡 What you can do now
       </h2>
       <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
         {tips.map((tip, i) => (

@@ -28,7 +28,7 @@ export default function App() {
         resultsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
       }, 100)
     } catch (err) {
-      setError(err.message || 'Errore sconosciuto')
+      setError(err.message || 'Unknown error')
       setState('error')
     }
   }, [])
@@ -89,7 +89,7 @@ export default function App() {
             onMouseLeave={e => { e.currentTarget.style.borderColor = 'var(--border-subtle)'; e.currentTarget.style.color = 'var(--text-secondary)' }}
           >
             <FiRefreshCcw size={14} />
-            Nuova analisi
+            New analysis
           </button>
         )}
       </header>
@@ -100,7 +100,7 @@ export default function App() {
         {state !== 'results' && (
           <div className="anim-fade-up" style={{ textAlign: 'center', padding: '60px 0 48px' }}>
             <div className="badge badge-green" style={{ marginBottom: '20px', fontSize: '13px' }}>
-              🌿 Analisi AI gratuita · Zero pubblicità
+              🌿 Free AI analysis · Zero ads
             </div>
             <h1 style={{
               fontSize: 'clamp(32px, 6vw, 58px)',
@@ -110,19 +110,19 @@ export default function App() {
               letterSpacing: '-0.03em',
               marginBottom: '18px',
             }}>
-              Conosci la verità su<br />
+              Know the truth about<br />
               <span style={{
                 background: 'linear-gradient(90deg, #4ade80, #86efac, #fbbf24)',
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',
                 backgroundClip: 'text',
               }}>
-                quello che indossi
+                what you wear
               </span>
             </h1>
             <p style={{ color: 'var(--text-secondary)', fontSize: '17px', maxWidth: '540px', margin: '0 auto 48px', lineHeight: 1.7 }}>
-              Inserisci la composizione dell&apos;etichetta. L&apos;AI analizza microplastiche,
-              impatto sulla pelle e sull&apos;ambiente — e ti dà 3 consigli concreti per fare meglio.
+              Paste your clothing label composition. AI analyzes microplastics,
+              skin impact and environmental footprint — and gives you 3 concrete tips to do better.
             </p>
 
             {/* Input card */}
@@ -152,7 +152,7 @@ export default function App() {
                 <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
                   <FiAlertTriangle size={20} color="var(--accent-red)" />
                   <div style={{ flex: 1 }}>
-                    <div style={{ fontSize: '14px', fontWeight: 600, color: 'var(--accent-red)', marginBottom: '4px' }}>Errore durante l&apos;analisi</div>
+                    <div style={{ fontSize: '14px', fontWeight: 600, color: 'var(--accent-red)', marginBottom: '4px' }}>Analysis error</div>
                     <div style={{ fontSize: '13px', color: 'var(--text-secondary)' }}>{error}</div>
                   </div>
                   <button
@@ -170,7 +170,7 @@ export default function App() {
                     }}
                   >
                     <FiRefreshCcw size={12} />
-                    Riprova
+                    Retry
                   </button>
                 </div>
               </div>
@@ -183,7 +183,7 @@ export default function App() {
           <div ref={resultsRef} style={{ paddingTop: '40px', display: 'flex', flexDirection: 'column', gap: '28px' }}>
             {/* Input recap */}
             <div className="anim-fade-in" style={{ display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap' }}>
-              <span style={{ fontSize: '13px', color: 'var(--text-muted)' }}>Analisi per:</span>
+              <span style={{ fontSize: '13px', color: 'var(--text-muted)' }}>Analysis for:</span>
               <span style={{
                 background: 'rgba(255,255,255,0.05)', border: '1px solid var(--border-subtle)',
                 borderRadius: '6px', padding: '4px 12px',
@@ -192,7 +192,7 @@ export default function App() {
                 {lastInput?.composition}
               </span>
               {analysis.fromCache && (
-                <span className="badge badge-green" style={{ fontSize: '11px' }}>📚 Curato da fonti scientifiche</span>
+                <span className="badge badge-green" style={{ fontSize: '11px' }}>📚 Curated from scientific sources</span>
               )}
             </div>
 
@@ -207,8 +207,8 @@ export default function App() {
               <button
                 onClick={async () => {
                   const score = analysis.safetyScore || 0
-                  const verdict = score >= 7 ? 'Eccellente' : score >= 4 ? 'Migliorabile' : 'Critico'
-                  const text = `🌿 Ho analizzato un capo in ${lastInput?.composition}\n\nNaturalezza: ${score}/10 (${verdict})\n${analysis.summary}\n\nScopri cosa indossi → weartruth.vercel.app`
+                  const verdict = score >= 7 ? 'Excellent' : score >= 4 ? 'Improvable' : 'Critical'
+                  const text = `🌿 I analyzed a garment made of ${lastInput?.composition}\n\nNaturalness: ${score}/10 (${verdict})\n${analysis.summary}\n\nDiscover what you wear → weartruth.vercel.app`
 
                   if (navigator.share) {
                     await navigator.share({ text }).catch(() => {})
@@ -221,15 +221,15 @@ export default function App() {
                 className="btn-share"
               >
                 {shared ? <FiCheck size={16} /> : <FiShare2 size={16} />}
-                {shared ? 'Copiato!' : 'Condividi risultato'}
+                {shared ? 'Copied!' : 'Share result'}
               </button>
             </div>
 
             {/* Footer note */}
             <p className="anim-fade-up" style={{ fontSize: '12px', color: 'var(--text-muted)', textAlign: 'center', marginTop: '4px' }}>
               {analysis.fromCache
-                ? 'Composizione analizzata manualmente su fonti ECHA, OEKO-TEX e letteratura scientifica.'
-                : 'Analisi generata dall\u2019AI su questa composizione specifica. I dati comuni sono verificati manualmente.'}
+                ? 'Composition manually analyzed from ECHA, OEKO-TEX and scientific literature sources.'
+                : 'Analysis AI-generated for this specific composition. Common data is manually verified.'}
             </p>
           </div>
         )}
@@ -243,7 +243,7 @@ export default function App() {
         color: 'var(--text-muted)',
         borderTop: '1px solid var(--border-subtle)',
       }}>
-        WearTruth — Sapere cosa indossi è un diritto • YOUtopia 2026
+        WearTruth — Knowing what you wear is a right • YOUtopia 2026
       </footer>
     </div>
   )
