@@ -1,119 +1,114 @@
 # 🌿 WearTruth
 
-**Conosci la verità su quello che indossi.**
+**Know the truth about what you wear.**
 
-WearTruth analizza la composizione tessile della tua etichetta e ti restituisce un'analisi completa su microplastiche, impatto sulla pelle, impatto ambientale e durabilità — con 3 consigli pratici per fare scelte migliori.
+WearTruth analyzes the textile composition of your clothing label and returns a complete analysis on microplastics, skin impact, environmental footprint and durability — with 3 practical tips to make better choices.
 
-> Progetto realizzato per **YOUtopia 2026** — hackathon dedicato alla creazione di un mondo migliore.
+> Project built for **YOUtopia 2026** — hackathon dedicated to building a better world.
 
 ---
 
 ### 📸 Screenshots
 
-| Homepage | Risultati (100% polyester) |
+| Homepage | Results (100% polyester) |
 |---|---|
-| ![Homepage](docs/screenshot-homepage.png) | ![Risultati](docs/screenshot-results.png) |
+| ![Homepage](docs/screenshot-results.png) | ![Results](docs/screenshot-homepage.png) |
 
 ---
 
-## 💡 Il problema reale
+## 💡 The Real Problem
 
-Compri una maglietta. L'etichetta dice *"65% polyester, 30% viscose, 5% elastane"*. E poi?
+You buy a T-shirt. The label says *"65% polyester, 30% viscose, 5% elastane"*. And then?
 
-- **Non sai** che rilascerà ~700.000 microplastiche ad ogni lavaggio
-- **Non sai** che il polyester è derivato dal petrolio e non si biodegrada per 200+ anni
-- **Non sai** che esistono certificazioni (OEKO-TEX, GOTS) che garantiscono tessuti più sicuri
+- **You don't know** it will release ~700,000 microplastics with every wash
+- **You don't know** that polyester is derived from crude oil and doesn't biodegrade for 200+ years
+- **You don't know** that certifications exist (OEKO-TEX, GOTS) that guarantee safer fabrics
 
-Le informazioni esistono, ma sono sparse tra paper scientifici, report ECHA, e siti specializzati. **Nessuno le mette insieme in un formato comprensibile in 2 secondi.**
+The information exists, but it's scattered across scientific papers, ECHA reports, and specialist sites. **Nobody puts it together in a format you can understand in 2 seconds.**
 
-WearTruth risolve questo: copi l'etichetta, ricevi la verità.
-
-<!-- 👉 Marco: aggiungi qui la tua storia personale se vuoi. Es:
-"Ho passato una sera intera a cercare cosa significasse la composizione
-della mia felpa preferita. Ho pensato: se è così difficile per me che
-so programmare, come fa mia nonna?" -->
+WearTruth fixes this: paste the label, receive the truth.
 
 ---
 
-## 🚀 Come funziona
+## 🚀 How It Works
 
-1. **Copia l'etichetta** del tuo capo d'abbigliamento (es. `65% polyester, 30% viscose, 5% elastane`)
-2. **Incollala** nel campo di testo
-3. **Ricevi** un'analisi AI con punteggio di naturalezza (1-10), dettagli su microplastiche/pelle/ambiente, e 3 consigli strutturali
+1. **Copy the label** from your garment (e.g. `65% polyester, 30% viscose, 5% elastane`)
+2. **Paste it** in the text field
+3. **Receive** an AI analysis with a naturalness score (1–10), details on microplastics/skin/environment, and 3 structural tips
 
-## 🏗️ Architettura
+## 🏗️ Architecture
 
 ```
 Frontend (React + Vite)
     │
-    ├── compositionCache.json  ← 15 composizioni curate (hit istantaneo)
+    ├── compositionCache.json  ← 15 curated compositions (instant hit)
     │
     └── /api/analyze  ← Vercel Serverless Function (proxy)
             │
             └── Groq API (llama-3.1-8b-instant, JSON mode)
 ```
 
-### Decisioni tecniche chiave
+### Key Technical Decisions
 
-| Decisione | Motivazione |
+| Decision | Rationale |
 |---|---|
-| **Serverless proxy** | API key mai esposta nel bundle client-side |
-| **`response_format: json_object`** | Groq garantisce JSON valido server-side — zero parsing failures |
-| **Cache curata** | Le 15 composizioni più comuni restituiscono dati verificati manualmente da fonti ECHA e OEKO-TEX, senza chiamata API |
-| **`llama-3.1-8b-instant`** | Sub-1s latency, ~6000 RPM free tier, nessun rischio timeout Vercel Hobby (10s) |
-| **Tips strutturali** | Zero link a prodotti = zero greenwashing, zero traffico regalato, zero link rotti |
-| **Prompt injection guard** | Input non tessili restituiscono `safetyScore: 0` con messaggio di errore |
-| **AbortController 12s** | Timeout client-side per connessioni lente — errore chiaro invece di schermata bloccata |
-| **Input sanitization** | Strip HTML + limite 500 caratteri prima di inviare al server |
+| **Serverless proxy** | API key never exposed in the client-side bundle |
+| **`response_format: json_object`** | Groq guarantees valid JSON server-side — zero parsing failures |
+| **Curated cache** | The 15 most common compositions return manually verified data from ECHA and OEKO-TEX, no API call needed |
+| **`llama-3.1-8b-instant`** | Sub-1s latency, ~6000 RPM free tier, no Vercel Hobby timeout risk (10s) |
+| **Structural tips** | Zero product links = zero greenwashing, zero gifted traffic, zero broken links |
+| **Prompt injection guard** | Non-textile inputs return `safetyScore: 0` with an error message |
+| **AbortController 8s** | Client-side timeout for slow connections — clear error instead of frozen screen |
+| **Input sanitization** | Strip HTML + 500 character limit before sending to server |
 
-## 🛡️ Sicurezza
+## 🛡️ Security
 
 - ✅ API key server-side only (`process.env.GROQ_API_KEY`)
-- ✅ CORS configurato nel serverless handler
-- ✅ Input sanitizzato (strip HTML, limite caratteri)
-- ✅ Prompt injection guard nel system prompt
-- ✅ `.env` nel `.gitignore`
+- ✅ CORS configured in the serverless handler
+- ✅ Input sanitized (strip HTML, character limit)
+- ✅ Prompt injection guard in system prompt
+- ✅ `.env` in `.gitignore`
 
 ## 📦 Tech Stack
 
 - **Frontend**: React 18, Vite 6, Vanilla CSS
-- **AI**: Groq API (`llama-3.1-8b-instant`) con JSON mode nativo
+- **AI**: Groq API (`llama-3.1-8b-instant`) with native JSON mode
 - **Backend**: Vercel Serverless Functions (Node.js)
-- **Design**: Dark mode, glassmorphism, Inter font, animazioni CSS
-- **Bundle**: ~184kB JS, ~6kB CSS (zero framework UI pesanti)
+- **Design**: Dark mode, glassmorphism, Inter font, CSS animations
+- **Bundle**: ~184kB JS, ~6kB CSS (zero heavy UI frameworks)
 
-## 🏃 Avvio rapido
+## 🏃 Quick Start
 
 ```bash
-# 1. Clona
+# 1. Clone
 git clone https://github.com/metrama183-lab/weartruth.git
 cd weartruth
 
-# 2. Installa dipendenze
+# 2. Install dependencies
 npm install
 
-# 3. Configura la API key
+# 3. Configure the API key
 cp .env.example .env
-# Modifica .env e inserisci la tua GROQ_API_KEY
+# Edit .env and add your GROQ_API_KEY
 
-# 4. Installa Vercel CLI (per il proxy locale)
+# 4. Install Vercel CLI (for local proxy)
 npm i -g vercel
 
-# 5. Avvia in locale
+# 5. Start locally
 vercel dev
 ```
 
 ## 📊 Performance
 
-| Metrica | Valore |
+| Metric | Value |
 |---|---|
-| Cache hit (composizione comune) | **<10ms** |
-| Cache miss (Groq API call) | **~1-2s** |
+| Cache hit (common composition) | **<10ms** |
+| Cache miss (Groq API call) | **~1–2s** |
 | Build time | **~600ms** |
 | JS bundle | **184kB** (gzip: 59kB) |
 | CSS bundle | **6kB** (gzip: 2kB) |
-| Moduli totali | **37** |
+| Total modules | **37** |
 
-## 📄 Licenza
+## 📄 License
 
-MIT — realizzato per YOUtopia 2026.
+MIT — built for YOUtopia 2026.
